@@ -1,0 +1,107 @@
+/* Estilos globales */
+body {
+  margin: 26px;
+  height: 100vh;
+  background: linear-gradient(100deg, #03045E, #3299CC);
+  font-family: 'Outfit', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Estilo del títulos principales */
+h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Estilo del subtítulos */
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 84px;
+}
+
+/* Estilo de los párrafos generales */
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: justify;
+  margin-top: 146px;
+}
+
+/* Estilo de las tarjetas del blog */
+.blog-container {
+  display: flex; /* Usamos flexbox para alineación y distribución */
+  flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva línea cuando no haya suficiente espacio */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  gap: 10px; /* Espacio entre las tarjetas */
+  padding: 20px; /* Espacio alrededor del contenedor */
+}
+
+
+.blog-card {
+  display: block; /* Se asegura de que sea un bloque */
+  width: 300px; /* Establece un ancho fijo */
+  margin: 20px auto; /* Centra el div en su contenedor con márgenes automáticos */
+  padding: 20px; /* Añadir un poco de espacio interior */
+  background-color: #fff; /* Un color de fondo opcional */
+  border: 1px solid #ccc; /* Añadir borde si lo deseas */
+  border-radius: 15px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+  box-shadow: 0 10px 8px rgba(0, 0, 8, 0.8); /*alineación de sombra y colores de sombra*/
+  Height: 500px;
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.blog-card-image {
+    width: 100%; /* Imagen ocupa todo el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción original */
+    border-radius: 15px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espaciado entre la imagen y el título */
+    border: 2px solid Black;
+
+}
+
+.blog-card h3,
+.blog-card h4,
+.blog-card h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #2d82b7;
+  text-align: center;
+}
+
+.blog-card ul {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #36393B;
+  text-align: justify;
+}
+
+/* Estilo del texto del CTA */
+.cta-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Estilo del botón de CTA */
+.cta-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
